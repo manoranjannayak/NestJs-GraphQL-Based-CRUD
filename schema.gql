@@ -25,7 +25,7 @@ type Query {
 }
 
 type Mutation {
-  userCreate(UserInput: UserInput!): [UserDto!]!
+  userCreate(UserInput: UserInput!): UserDto!
   createItem(input: ItemInput!): ItemType!
   updateItem(input: ItemInput!, id: String!): ItemType!
   deleteItem(id: String!): ItemType!

@@ -3,23 +3,23 @@ import { InputType, Field, Int, ID } from '@nestjs/graphql';
 @InputType()
 export class UserInput {
     @Field()
-    name: string;
+    name: String;
 
     @Field()
-    username: string;
+    username: String;
 
     @Field()
-    email: string;
+    email: String;
 
     @Field()
-    password: string;
+    password: String;
 
     @Field()
     age: number;
 
     @Field()
-    image: string;
+    image: String;
 
     @Field()
-    image2:string;
+    image2: String;
 }

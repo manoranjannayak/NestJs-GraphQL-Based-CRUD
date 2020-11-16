@@ -6,12 +6,12 @@ export class UserDto {
     @Field()
     @IsString()
     @IsNotEmpty()
-    name: string;
+    name: String;
 
     @Field()
     @IsString()
     @IsNotEmpty()
-    username: string;
+    username: String;
 
     @Field()
     @IsString()
@@ -35,5 +35,5 @@ export class UserDto {
     @Field()
     @IsString()
     @IsNotEmpty()
-    image2:String;
+    image2: String;
 }
